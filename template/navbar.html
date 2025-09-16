@@ -1,0 +1,32 @@
+{% load static %}
+
+<nav class="navbar navbar-expand-lg fixed-top">
+  <div class="container">
+    <a class="navbar-brand" href="/">
+      <img class="logo-original" src="{% static 'images/aivc_logo.png' %}" alt="AI Venture Catalyst">
+      <img class="logo-green" src="{% static 'images/aivc_logo_green.png' %}" alt="AI Venture Catalyst" style="position: absolute; top: 0; left: 0;">
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link nav-header" aria-current="page" href="#">What We Do</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link nav-header" href="#">Industries</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link nav-header" href="#">About Us</a>
+        </li>
+        <li class="nav-item d-lg-none">
+          <a class="btn get-btn-nav" href="#">Get Started</a>
+        </li>
+      </ul>
+    </div>
+    <div class="d-none d-lg-block ms-auto">
+      <button type="button" class="btn get-btn-nav">Get Started</button>
+    </div>
+  </div>
+</nav>

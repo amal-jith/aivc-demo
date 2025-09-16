@@ -1,0 +1,454 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %}AI Venture Catalyst{% endblock %}
+
+    {% block content %}
+
+    <section class="header">
+
+        <div class="">
+            <div class="card header-card mx-auto">
+              <video class="card-video-bg" autoplay muted loop playsinline preload="none" poster="{% static 'images/video-poster.jpg' %}">
+                <source src="{% static 'videos/AIVC_hero.mp4' %}" type="video/mp4">
+                Your browser does not support the video tag.
+              </video>
+
+              <div class="gradient-overlay"></div>
+
+              <div class="card-img-overlay">
+                  <div class="container">
+                    <h1 class="hero-title">Transform Your Services IP Into AI-First Companies</h1>
+                    <p class="hero-subtitle">We're former Private Equity Operating Partners who build AI companies that investors fund and scale. With 60+ years of combined experience, we ensure you join the 5% that succeed, not the 95% that fail.</p>
+                    <button type="button" class="btn get-btn" data-bs-toggle="modal" data-bs-target="#bookingModal">Get Started</button>
+                  </div>
+              </div>
+            </div>
+        </div>
+
+    </section>
+
+    <div class="container-fluid">
+        <div class="why-services-company-titles-section">
+            <h1 class="section-title-1">Why Services Companies Choose Us Over Investment Bankers and Consultants</h1>
+            <p class="section-subtitle-1">The Only AI Business Transformation Firm Led by PE Operating Partners</p>
+        </div>
+    </div>
+    <div class="why-services-company-owl-section">
+         <div class="owl-carousel owl-theme">
+            <div class="item">
+                <div class="card why-service-card-1">
+                    <h3 class="why-service-card-title-1">PE Operating Partner Authority</h3>
+                    <hr>
+                    <p class="why-service-card-title-2">Former Private Equity Insiders Who Know What Gets Funded</p>
+                    <p class="why-service-card-title-3">Former Private Equity Insiders Who Know What Gets Funded 60+ years combined PE experience. We've reviewed thousands of deals and funded the winners. We know exactly why 95-99% fail to raise capital and how to join the 1-5% who succeed.</p>
+                </div>
+            </div>
+            <div class="item">
+                <div class="card why-service-card-2">
+                    <h3 class="why-service-card-title-1">AI Company Building Expertise</h3>
+                    <hr>
+                    <p class="why-service-card-title-2">We Beat Both Failure Rates - Funding and AI Execution</p>
+                    <p class="why-service-card-title-3">While 95% of AI startups fail and 95-99% can't raise capital, we solve both problems. Our PE frameworks create AI companies that investors fight over and scale successfully.</p>
+                </div>
+            </div>
+            <div class="item">
+                <div class="card why-service-card-1">
+                    <h3 class="why-service-card-title-1">Strategic Carve-Out Execution</h3>
+                    <hr>
+                    <p class="why-service-card-title-2">We Create AI Companies, Not AI Features</p>
+                    <p class="why-service-card-title-3">We identify your hidden AI assets and carve them into independent companies with recurring revenue models, premium valuations, and clear paths to strategic exits.</p>
+                </div>
+            </div>
+            <div class="item">
+                <div class="card why-service-card-2">
+                    <h3 class="why-service-card-title-1">PE Operating Partner Authority</h3>
+                    <hr>
+                    <p class="why-service-card-title-2">Former Private Equity Insiders Who Know What Gets Funded</p>
+                    <p class="why-service-card-title-3">Former Private Equity Insiders Who Know What Gets Funded 60+ years combined PE experience. We've reviewed thousands of deals and funded the winners. We know exactly why 95-99% fail to raise capital and how to join the 1-5% who succeed.</p>
+                </div>
+            </div>
+         </div>
+    </div>
+
+    <div class="container-fluid">
+
+        <div class="unlock-section">
+            <h1 class="unlock-title mx-auto">
+                <span class="line-1">Unlock hidden value from your IP.</span>
+                <span class="line-2">Productize, scale, and fund AI businesses that set you apart —</span>
+                <span class="line-3">before your competitors catch up.</span>
+            </h1>
+        </div>
+
+    </div>
+
+    <section class="decide-what-section">
+        <div class="container">
+            <h1 class="decide-main-title mx-auto">Decide what’s best for your company!</h1>
+            <p class="decide-main-subtitle mx-auto">Join hands with a partner that fits your scaling needs, or let us help you transform your company into an investor ready product!</p>
+        </div>
+        <div class="container" style="margin-top: 6.25rem;">
+            <div class="row row-cols-1 row-cols-md-2 g-4">
+                <div class="col">
+                    <div class="card decide-what-card-1 h-100">
+                      <img src="{% static 'images/Frame11.png' %}" class="card-img-top" alt="...">
+                      <div class="card-body p-0">
+                        <button class="btn decide-what-card-1-tab">Mergers and Acquistions</button>
+                        <h5 class="decide-title">Unlock hidden value with AI-driven M&A strategies.</h5>
+                        <p class="decide-subtitle">Whether buying or selling, we help you identify, carve out, and scale AI assets to maximize enterprise value — often 2–3× higher than traditional service multiples.</p>
+                      </div>
+                      <div class="card-footer bg-transparent p-0 border-0">
+                        <a href="#" class="btn explore-btn">Explore M&A →</a>
+                      </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card decide-what-card-2 h-100">
+                      <img src="{% static 'images/Frame12.png' %}" class="card-img-top" alt="...">
+                      <div class="card-body p-0">
+                        <button class="btn decide-what-card-2-tab">Growth Equity</button>
+                        <h5 class="decide-title">Fuel your AI venture with growth equity.</h5>
+                        <p class="decide-subtitle">We prepare your AI business for investor readiness, connect you with growth equity funds, and help you secure capital on favorable terms — accelerating valuation from 4–6× to 20–30× multiples.</p>
+                      </div>
+                      <div class="card-footer bg-transparent p-0 border-0">
+                        <a href="#" class="btn explore-btn">Explore M&A →</a>
+                      </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="pe-operating-section">
+        <div class="container">
+            <h1 class="pe-main-title mx-auto">The PE Operating Partner Process That Beats Both Failure Rates</h1>
+            <p class="pe-main-subtitle mx-auto">While 95% of AI startups fail and 95-99% of all startups can't raise capital, we solve both problems with proven frameworks and the best leadership in the industry</p>
+        </div>
+
+
+        <div class="container-fluid card-pin-container">
+
+            <div class="card phase-1-card mx-auto">
+              <div class="card-body">
+                <div class="row row-cols-1 row-cols-md-2 g-4 align-items-center">
+                    <div class="col">
+                        <p class="phase-card-title-1">PHASE 1: DISCOVER</p>
+                        <h3 class="phase-card-title-2">We Find Your AI Goldmine and Build Investor Credibility</h3>
+                        <div class="list-section">
+                            <ul class="investor-list">
+                                <li>Former PE partners assess with actual investor eyes</li>
+                                <li>Identify AI assets worth 10X+ more as independent companies</li>
+                                <li>Create investor-grade roadmaps that get funded, not rejected.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <img src="{% static 'images/phase1.png' %}" class="card-img-top" alt="...">
+                    </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="card phase-2-card mx-auto">
+              <div class="card-body">
+                <div class="row row-cols-1 row-cols-md-2 g-4 align-items-center">
+                    <div class="col">
+                        <p class="phase-card-title-1">PHASE 2: ARCHITECT</p>
+                        <h3 class="phase-card-title-2">We Carve Out and Build the AI-First Company</h3>
+                        <div class="list-section">
+                            <ul class="investor-list">
+                                <li>We operate as your C-suite leadership team</li>
+                                <li>Create independent smartly positioned AI-first companies, not just AI operational efficiency bolt-ons</li>
+                                <li>Design business models that command premium valuations</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <img src="{% static 'images/phase2.png' %}" class="card-img-top" alt="...">
+                    </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="card phase-3-card mx-auto">
+              <div class="card-body">
+                <div class="row row-cols-1 row-cols-md-2 g-4 align-items-center">
+                    <div class="col">
+                        <p class="phase-card-title-1">PHASE 3: SCALE</p>
+                        <h3 class="phase-card-title-2">We Drive Market Leadership and Strategic Exits</h3>
+                        <div class="list-section">
+                            <ul class="investor-list">
+                                <li>We run the business as operators, not advisors</li>
+                                <li>Our institutional investor network opens doors to the right growth capital</li>
+                                <li>We position for strategic buyers from day one</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <img src="{% static 'images/phase3.png' %}" class="card-img-top" alt="...">
+                    </div>
+                </div>
+              </div>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <section class="membership-benefits">
+      <div class="benefits-container">
+        <div class="benefit" id="benefit-1">
+            BENEFIT3
+        </div>
+        <div class="benefit" id="benefit-2">
+            BENEFIT2
+        </div>
+        <div class="benefit" id="benefit-3">
+            QWERT
+        </div>
+        <div class="benefit" id="benefit-4">Invest</div>
+      </div>
+    </section>
+
+    <section class="why-services-section">
+        <div class="container">
+            <h1 class="why-services-title mx-auto">Why Services Companies Trust Our Leadership</h1>
+            <p class="why-services-subtitle mx-auto">Specialized expertise in professional and business services sectors with proven AI carve-out success</p>
+        </div>
+    </section>
+
+
+   <section class="industries-section">
+        <div class="container">
+            <h1 class="industries-section-title mx-auto">Industries We Transform</h1>
+            <p class="industries-section-subtitle mx-auto">Specialized expertise in professional and business services sectors with proven AI carve-out success</p>
+        </div>
+       <div class="container container-section-1">
+           <div class="row row-cols-1 row-cols-md-2 g-4">
+               <div class="col">
+                   <div class="card industries-card-1 mx-auto">
+                      <div class="row g-4">
+                        <div class="col-md-5">
+                          <div class="industry-bg-image" style="background-image: url('{% static 'images/management-consultancy.webp' %}');"></div>
+                        </div>
+                        <div class="col-md-7">
+                          <div class="card-body industries-card-body">
+                            <div class="img-icon-div"><img src="{% static 'icons/briefcase-24-filled.svg' %}" class="industry-icon"></div>
+                            <p class="subtitle-1">AI Powering</p>
+                            <h5 class="subtitle-2">Management Consultancy</h5>
+                            <p class="subtitle-3">Strategy, operations, and transformation consulting firms with AI-powered insights and automation capabilities.</p>
+                            <a class="view-more-link" href="#">View More<img src="{% static 'icons/Arrow1.svg' %}" class="view-more-icon"></a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+               </div>
+               <div class="col">
+                <div class="card industries-card-2 mx-auto">
+                  <div class="row g-4">
+                    <div class="col-md-5">
+                      <div class="industry-bg-image" style="background-image: url('{% static 'images/financial-services.webp' %}');"></div>
+                    </div>
+                    <div class="col-md-7">
+                      <div class="card-body industries-card-body">
+                        <div class="img-icon-div"><img src="{% static 'icons/money-20-filled.svg' %}" class="industry-icon"></div>
+                        <p class="subtitle-1">AI Powering</p>
+                        <h5 class="subtitle-2">Financial Services</h5>
+                        <p class="subtitle-3">Accounting, advisory, and wealth management firms leveraging AI for risk assessment and client insights.</p>
+                        <a class="view-more-link" href="#">View More<img src="{% static 'icons/Arrow1.svg' %}" class="view-more-icon"></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+               </div>
+               <div class="col">
+                <div class="card industries-card-2 mx-auto">
+                  <div class="row g-4">
+                    <div class="col-md-5">
+                      <div class="industry-bg-image" style="background-image: url('{% static 'images/healthcare-industries.webp' %}');"></div>
+                    </div>
+                    <div class="col-md-7">
+                      <div class="card-body industries-card-body">
+                        <div class="img-icon-div"><img src="{% static 'icons/stethoscope-20-filled.svg' %}" class="industry-icon"></div>
+                        <p class="subtitle-1">AI Powering</p>
+                        <h5 class="subtitle-2">Healthcare Industries</h5>
+                        <p class="subtitle-3">Healthcare consulting and medical services firms building AI solutions for diagnostics and patient care.</p>
+                        <a class="view-more-link" href="#">View More<img src="{% static 'icons/Arrow1.svg' %}" class="view-more-icon"></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+               </div>
+               <div class="col">
+                <div class="card industries-card-1 mx-auto">
+                  <div class="row g-4">
+                    <div class="col-md-5">
+                      <div class="industry-bg-image" style="background-image: url('{% static 'images/legal-services.webp' %}');"></div>
+                    </div>
+                    <div class="col-md-7">
+                      <div class="card-body industries-card-body">
+                        <div class="img-icon-div"><img src="{% static 'icons/fa_legal.svg' %}" class="industry-icon"></div>
+                        <p class="subtitle-1">AI Powering</p>
+                        <h5 class="subtitle-2">Legal Services</h5>
+                        <p class="subtitle-3">Law firms and legal tech companies developing AI solutions for contract analysis, research, and compliance.</p>
+                        <a class="view-more-link" href="#">View More<img src="{% static 'icons/Arrow1.svg' %}" class="view-more-icon"></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+               </div>
+           </div>
+       </div>
+       <div class="view-all-btn-container">
+           <a href="#" class="btn view-all-btn">View all Industries</a>
+       </div>
+    </section>
+
+    <div class="connect-with-us-section" style="background-image: url('{% static 'images/Template9.png' %}');">
+        <div class="container">
+            <div class="row row-cols-1 row-cols-md-2 g-4">
+                <div class="col">
+                    <div class="card-body">
+                        <button class="connect-with-us-btn">❤️ Connect With Us</button>
+                        <h1 class="connect-with-us-title-1">AI is Disrupting</h1>
+                        <h1 class="connect-with-us-title-2">Professional Services</h1>
+                        <p class="connect-with-us-subtitle-1">Don't let competitors capture the value of your AI innovations.</p>
+                        <p class="connect-with-us-subtitle-2">Act now to transform your intellectual property into a high-value venture.</p>
+                        <div class="connect-section-container">
+                            <button class="connect-with-our-btn">Connect With Our Team</button>
+                            <p class="trusted-by-silicon-text">Trusted by Silicon Valley Veterans!</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col d-flex justify-content-center align-items-center">
+                    <img src="{% static 'images/image_9.png' %}" class="card-img-top ai-logo" alt="...">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section class="meet-operator-section">
+        <div class="container">
+            <h1 class="why-services-title mx-auto">Meet your Operating Partner</h1>
+            <p class="why-services-subtitle mx-auto">Experienced executives who embed with your team to drive results, not external consultants who provide recommendations.</p>
+        </div>
+    </section>
+
+    <div class="what-vs-what-section">
+        <div class="container">
+            <div class="row row-cols-1 row-cols-md-2 g-4">
+                <div class="col-md-4">
+                    <h2 class="what-we-title-1">What we do</h2>
+                    <h2 class="what-we-title-2">vs What we don’t?</h2>
+                    <a href="#" class="btn view-all-btn">About Us</a>
+                </div>
+                <div class="col-md-1"></div>
+                <div class="col-md-7">
+                    <div class="row row-col-1 row-cols-md-2 g-4 align-items-center">
+                        <div class="col">
+                            <p class="what-we-subtitle">What We Do!</p>
+                            <div class="card-body">
+                                <div class="list-section-1 mb-2">
+                                    <img src="{% static 'icons/grammerly.svg' %}"><p>Embed as interim executives in your organization</p>
+                                </div>
+                                <div class="list-section-1 mb-2">
+                                    <img src="{% static 'icons/grammerly.svg' %}"><p>Execute hands-on strategy and operations</p>
+                                </div>
+                                <div class="list-section-1">
+                                    <img src="{% static 'icons/grammerly.svg' %}"><p>Build scalable systems and processes</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <p class="what-we-subtitle">What We Don't Do</p>
+                            <div class="card-body">
+                                <div class="list-section-1 mb-2">
+                                    <img src="{% static 'icons/Icon.svg' %}"><p>Provide recommendations and leave</p>
+                                </div>
+                                <div class="list-section-1 mb-2">
+                                    <img src="{% static 'icons/Icon.svg' %}"><p>Work as external consultants</p>
+                                </div>
+                                <div class="list-section-1">
+                                    <img src="{% static 'icons/Icon.svg' %}"><p>Charge hourly or project fees</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="contact-us-section">
+        <div class="container">
+            <h2 class="contact-section-title">Contact Us</h2>
+
+            <div class="form-section">
+                <form class="row g-3">
+                  <div class="col-md-6">
+                    <label for="inputEmail4" class="form-label contact-form-label">FULL NAME</label>
+                    <input type="email" class="form-control contact-form-control" id="inputEmail4" placeholder="ENTER YOUR NAME">
+                  </div>
+                  <div class="col-md-6">
+                    <label for="inputPassword4" class="form-label contact-form-label">PHONE NUMBER</label>
+                    <input type="password" class="form-control contact-form-control" id="inputPassword4" placeholder="xxx xxx xxxx">
+                  </div>
+                  <div class="col-12">
+                    <label for="inputAddress" class="form-label contact-form-label">EMAIL ADDRESS</label>
+                    <input type="text" class="form-control contact-form-control" id="inputAddress" placeholder="xyz@example.com">
+                  </div>
+                  <div class="col-md-6">
+                    <label for="inputEmail4" class="form-label contact-form-label">ANNUAL REVENUE</label>
+                    <input type="email" class="form-control contact-form-control" id="inputEmail4" placeholder="SELECT A RANGE">
+                  </div>
+                  <div class="col-md-6">
+                    <label for="inputPassword4" class="form-label contact-form-label">WHo referred you?</label>
+                    <input type="password" class="form-control contact-form-control" id="inputPassword4" placeholder="HOw did you hear about us?">
+                  </div>
+                  <div class="col-12">
+                    <textarea class="form-control contact-form-control" placeholder="TELL US ABOUT YOU!" id="floatingTextarea2" style="height: 100px"></textarea>
+                  </div>
+                  <div class="col-12">
+                    <div class="form-check">
+                      <input class="form-check-input" type="checkbox" id="gridCheck">
+                      <label class="form-check-label" for="gridCheck">
+                        I agree to receive communications from AIVC regarding my inquiry and understand that my information will be kept confidential.
+                      </label>
+                    </div>
+                  </div>
+                  <div class="col-12">
+                    <button type="button" class="btn get-btn" data-bs-toggle="modal" data-bs-target="#bookingModal">Get Started</button>
+                  </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div class="what-vs-what-section">
+        <div class="container">
+            <h1 class="why-services-title mx-auto">Why you need us?</h1>
+            <p class="why-services-subtitle mx-auto">The AI landscape isn’t as  easy of a road to pave through without experts!</p>
+
+            <div class="numbers-section">
+                <div class="row row-cols-1 row-cols-md-3 g-4">
+                    <div class="col">
+                        <h1 class="number-percentage">95%</h1>
+                        <p class="number-percentage-sub">AI Startups Fail due to lack of guidance and a clear plan</p>
+                    </div>
+                    <div class="col">
+                        <h1 class="number-percentage">95% - 99%</h1>
+                        <p class="number-percentage-sub">Of all startups fail to raise capital needed to fund their ventures.</p>
+                    </div>
+                    <div class="col">
+                        <h1 class="number-percentage">60+ years</h1>
+                        <p class="number-percentage-sub">Of our combined PE Operating Partner and CXO experience.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    {% endblock %}
